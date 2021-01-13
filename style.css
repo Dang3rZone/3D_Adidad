@@ -21,6 +21,7 @@ body {
   align-items: center;
 }
 .card {
+  transition: all 0.5s easet;
   transform: preserve-3d;
   min-height: 80vh;
   width: 35rem;
