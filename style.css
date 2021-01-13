@@ -50,3 +50,47 @@ body {
   border-radius: 50%;
   z-index: 1;
 }
+
+.info h1 {
+  font-size: 3rem;
+}
+
+.info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0rem;
+  color: #585858;
+  font-weight: lighter;
+}
+
+.sizes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sizes button {
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #585858;
+}
+button.active {
+  background: rgba(245, 70, 66, 0.75);
+  color: #fff;
+}
+.purchase {
+  margin-top: 5rem;
+}
+.purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: #f54642;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
+}
